@@ -1,0 +1,59 @@
+body {
+    background: linear-gradient(    to top right,
+    #7700ff,
+    #0099ff);
+    width: 100vw;
+    height: 100vh;
+    font-family: Helvetica, sans-serif;
+    font-size: 24px;
+    display: flex;
+    }
+#nagłówek {
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Opcjonalne, wyśrodkowanie elementów */
+}
+
+.container img,
+.container p,
+.container h5 {
+    margin: 10px 0; /* Dodanie odstępu między elementami */
+}
+
+#marszal {
+    background: linear-gradient(
+        to left,
+        #ff4444,
+        #fdc04e
+            );
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+#czejs {
+background: linear-gradient(
+to top right,
+#78d4ff,
+#2bff00
+);
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+#powrót {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
