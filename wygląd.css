@@ -79,6 +79,13 @@ section {
     float: left;
     border-radius: 10%;
 }
+footer {
+    clear: both;
+    width: 100vw;
+    height: 25vh;
+    background: black;
+    position: relative;
+}
 
 #napisczol {
 color: white;
@@ -87,11 +94,6 @@ font-family: Helvetica, sans-serif;
 position: relative;
 left: 55%;
 right: 10%;
-}
-#czołówka {
-   position: relative;
-   display: flex;
-  align-items: center;
 }
 .arrow {
     background-color: transparent;
