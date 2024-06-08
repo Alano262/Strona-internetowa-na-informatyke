@@ -19,34 +19,13 @@ body {
     
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Opcjonalne, wyśrodkowanie elementów */
-}
-
-.container img,
-.container p,
-.container h5 {
-    margin: 10px 0; /* Dodanie odstępu między elementami */
-}
 
 #marszal {
-    background: linear-gradient(
-        to left,
-        #ff4444,
-        #fdc04e
-            );
             display: flex;
             flex-direction: column;
             align-items: center;
         }
 #czejs {
-background: linear-gradient(
-to top right,
-#78d4ff,
-#2bff00
-);
 display: flex;
 flex-direction: column;
 align-items: center;

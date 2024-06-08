@@ -12,7 +12,7 @@ const videoSources = [
 const videoDescriptions = [
     '⬇️Czołówkas',
     '⬇️Odcinek Pierwszy',
-    ''
+    'coś będzie'
 ];
 
 let currentVideoIndex = 0;
