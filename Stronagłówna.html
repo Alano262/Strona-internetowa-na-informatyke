@@ -32,13 +32,16 @@
 <section>
     <div id="napisczol">
     <h3>
-Czołówka
+        ⬇️Czołówka
     </h3>
 </div>
     <div id="czołówka">
-    <iframe width="560" height="315" src="https://www.youtube.com/watch?v=TOObNE05oSg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-</section>
+        <button class="arrow left-arrow" onclick="prevVideo()">&#9664;</button>
+        <video id="videoPlayer" controls>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/2qMhquBQ89Y?si=kwq8AdUH0GBeSuHo" type="video1.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/TOObNE05oSg?si=jW18piPST5kvxYWI" type="video2.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </video>
+        <button class="arrow right-arrow" onclick="nextVideo()">&#9654;</button>
 <footer></footer>
 </body>
 </html>
