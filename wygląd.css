@@ -28,22 +28,23 @@ color: rgb(0, 0, 0);
 width: 100%;
 height: 100%;
 align-items: center;
-font-size: 40px;
+font-size: 60px;
 font-style: none;
 position: relative;
-left: 50%;
-left: 25%;
-top: 20%;
+left: 10%;
+right: 55%;
+top: 10px;
+font-family: Helvetica, sans-serif;
 }
 
 #head {
-    color: white;
+    color: rgb(255, 255, 255);
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 50px;
+    font-size: 100px;
 
 }
 
@@ -55,12 +56,13 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat; 
+    border-style: groove;
     
 }
 
 nav {
 width: 30vw;
-height: 73vh;
+height: 99vh;
 background: linear-gradient(
     to top left,
     #00eeff,
@@ -70,21 +72,37 @@ float: left;
 border-radius: 10%;
 left: 50%;
 left: 0%;
+background-repeat: no-repeat; 
+border-style: groove;
 }
 
 section {
     width: 70vw;
     height: 50vh;
-    background: green;
+    background-image: url('pobrany\ plik\ \(5\).jpg');
     float: left;
     border-radius: 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    border-style: groove;
 }
 footer {
     clear: both;
-    width: 100vw;
-    height: 25vh;
-    background: black;
+    width: 70vw;
+    height: 50vh;
+    top: -2px;
+    background: linear-gradient(
+to top left,
+#ff0000,
+#ffd000
+
+    );
     position: relative;
+    border-radius: 10%;
+    background-repeat: no-repeat; 
+    border-style: groove;
 }
 
 #napisczol {
@@ -100,6 +118,9 @@ right: 10%;
     border: none;
     font-size: 2em;
     cursor: pointer;
+    position: relative;
+    top: -130px;
+    left: 400px;
 }
 
 .left-arrow {
@@ -108,4 +129,32 @@ right: 10%;
 
 .right-arrow {
     margin-left: 10px;
+}
+
+#videoPlayer {
+width: 500px;
+height: 300px;
+top: -10px;
+left: 400px;
+position: relative;
+}
+#videoDescription {
+color: white;
+position: relative;
+left: 430px;
+right: 10%;
+top: 0%;
+font-size: 50px;
+font-family: Helvetica, sans-serif;
+
+}
+
+#Informacje {
+width: 60vw;
+height: 0vh;
+position: relative;
+font-family: Helvetica, sans-serif;
+left: 40px;
+top: 50px;
+font-size: 24px;
 }
